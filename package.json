@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "start": "serve ./images",
-    "deploy": "now"
+    "deploy": "now",
+    "alias": "now alias"
   },
   "repository": {
     "type": "git",
