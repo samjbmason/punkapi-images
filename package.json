@@ -1,0 +1,31 @@
+{
+  "name": "punkapi-images",
+  "version": "1.0.0",
+  "description": "All the label images from Brewdog's DIY Dog",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "serve ./images",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samjbmason/punkapi-images.git"
+  },
+  "keywords": [
+    "beer",
+    "brewdog"
+  ],
+  "author": "Sam Mason <sam.jbmason@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samjbmason/punkapi-images/issues"
+  },
+  "homepage": "https://github.com/samjbmason/punkapi-images#readme",
+  "dependencies": {
+    "serve": "^2.1.2"
+  },
+  "now": {
+    "alias": "images.punkapi.com"
+  }
+}
