@@ -5,8 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "serve ./images",
-    "deploy": "now",
+    "deploy": "cd images && now -n punkapi-images",
     "alias": "now alias"
   },
   "repository": {
@@ -23,9 +22,7 @@
     "url": "https://github.com/samjbmason/punkapi-images/issues"
   },
   "homepage": "https://github.com/samjbmason/punkapi-images#readme",
-  "dependencies": {
-    "serve": "^2.1.2"
-  },
+  "dependencies": {},
   "now": {
     "alias": "images.punkapi.com"
   }
