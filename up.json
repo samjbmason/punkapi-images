@@ -1,0 +1,13 @@
+{
+  "name": "punkapi-images",
+  "profile": "up_admin",
+  "type": "static",
+  "static": {
+    "dir": "images"
+  },
+  "stages": {
+    "production": {
+      "domain": "images.punkapi.com"
+    }
+  }
+}
