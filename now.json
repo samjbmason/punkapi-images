@@ -4,6 +4,6 @@
   "alias": ["images.punkapi.com"],
   "routes": [{
     "src": "^/(.*)",
-    "dest": "/images/v2/$1"
+    "dest": "/images/$1"
   }]
 }
