@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "name": "punkapi-images",
   "alias": ["images.punkapi.com"],
   "routes": [{
     "src": "^/(.*)",
-    "dest": "/images/$1"
+    "dest": "/images/v2/$1"
   }]
 }
