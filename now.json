@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "alias": ["images.punkapi.com"],
+  "routes": [{
+    {
+      "src": "^/(.*)",
+      "dest": "/images/$1"
+    },
+  }]
+}
